@@ -276,6 +276,7 @@ client.on('messageCreate', async (message) => {
 
     // make the approved option true on db;
     bot.approved = true;
+    db.set(id,bot)
   }
   }
   if (command === '!decline') {
