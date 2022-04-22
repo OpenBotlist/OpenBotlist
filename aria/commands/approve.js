@@ -56,5 +56,6 @@ module.exports = {
 
     // make the approved option true on db;
     bot.approved = true;
+    client.db.set(id,bot)
   }
 }
