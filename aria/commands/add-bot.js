@@ -1,5 +1,6 @@
 module.exports = {
   name: "add-bot",
+  isAddBotChannelOnly: true,
   async execute(client, message, args) {
     const id = args[0];
     if (id === undefined) {
