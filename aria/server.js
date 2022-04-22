@@ -79,8 +79,7 @@ db.load();
 
 client.botoptions = {
   prefix: '!',
-  //token: process.env.token, // token reaveal
-  token: "NTYyOTc3NzUzOTYwNDE1MjUy.XKSn5A.lCItTFXK3V8Xhvnifqe_6zAUrZY",
+  token: process.env.token, // token reaveal
   logs: {
     modlogs: '966028505458556968'
   },
