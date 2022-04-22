@@ -1,0 +1,24 @@
+{
+  "name": "aria",
+  "version": "1.0.0",
+  "description": "The official bot for the OpenBotList",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "dependencies": {
+    "discord.js": "^13.6.0"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "repository": {
+    "url": "https://github.com/OpenBotlist"
+  },
+  "license": "GPL-3.0",
+  "keywords": [
+    "open",
+    "libre",
+    "botlist"
+  ]
+}
