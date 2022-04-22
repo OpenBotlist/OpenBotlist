@@ -4,7 +4,10 @@
   "description": "The official bot for the OpenBotList",
   "main": "server.js",
   "scripts": {
-    "start": "node ."
+    "start": "nodemon ."
+  },
+  "devDependencies": {
+   "nodemon":"^2.0.15"
   },
   "dependencies": {
     "discord.js": "^13.6.0"
