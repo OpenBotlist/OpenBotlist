@@ -6,3 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+<<<<<<< HEAD
+hyper = { version = "0.14", features = ["full"] }
+tokio = { version = "1", features = ["full"] }
+=======
+>>>>>>> 2d9a4aa17e5914224968f944a5673a664290e643
