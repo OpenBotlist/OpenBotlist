@@ -52,7 +52,7 @@ module.exports = {
       owner: message.author.id
     });
 
-    await message.author.send('Your bot has been added to the queue!').catch(() => undefined); //send it to PMs
+    await message.author.send('Your bot has been added to the queue!').catch(() => null);
     await message.delete(); // this should delete the command message (!add-bot)
   }
 }
